@@ -9,8 +9,9 @@
 
 ## Descripción del Proyecto
 
-Este proyecto demuestra la automatización de ABM (Altas, Bajas y Modificaciones) en un entorno híbrido de Active Directory + Microsoft Entra ID.
+Este proyecto simula un entorno corporativo real de **Identity and Access Management (IAM)**. Se implementó un **entorno híbrido** que combina Active Directory (on-premise) con Microsoft Entra ID (cloud), permitiendo la gestión unificada de identidades.
 
+La automatización de **ABM (Altas, Bajas y Modificaciones)** se logra mediante scripts en PowerShell que procesan archivos CSV, creando usuarios, asignándolos a grupos por departamento (RBAC) y estableciendo jerarquías de managers. Adicionalmente, se configuró **Microsoft Entra Connect** para sincronizar las identidades locales con la nube, habilitando Password Hash Sync y autenticación unificada.
 ---
 
 ## Habilidades Demostradas

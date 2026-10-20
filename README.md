@@ -112,6 +112,8 @@ MIT License
 
 ---
 
+---
+
 ## 📸 Galería de Capturas
 
 ### 1. Estructura de Active Directory (OUs)
@@ -126,5 +128,8 @@ MIT License
 ### 4. Identidades Sincronizadas en Microsoft Entra ID
 ![Usuarios en Azure](Screenshots/azure-users.png)
 
-### 5. Auditoría y Diagnóstico (Event Viewer)
+### 5. Estado del Programador de Sincronización (PowerShell)
+![Scheduler Entra Connect](Screenshots/entra-connect-scheduler.png)
+
+### 6. Auditoría y Diagnóstico (Event Viewer)
 ![Token de acceso](Screenshots/entra-connect-eventlog.png)

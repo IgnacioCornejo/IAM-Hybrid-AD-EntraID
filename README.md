@@ -42,15 +42,18 @@ Este proyecto demuestra la automatización de ABM (Altas, Bajas y Modificaciones
 IAM-Hybrid-AD-EntraID/
 ├── README.md
 ├── Scripts/
-│   ├── New-ADUsersBulk.ps1
-│   └── users.csv
+│ ├── New-ADUsersBulk.ps1
+│ └── users.csv
 ├── Docs/
-│   ├── manual-setup.md
-│   └── troubleshooting.md
+│ ├── arquitectura-hybrida.md
+│ └── troubleshooting.md
 └── Screenshots/
-    ├── ad-estructura-ous.png
-    ├── ad-ventas.png
-    └── ad-it.png
+├── ad-estructura-ous.png
+├── ad-grupos-rbac.png
+├── ad-ventas.png
+├── azure-users.png
+├── entra-connect-scheduler.png
+└── entra-connect-eventlog.png
     
 ```
 

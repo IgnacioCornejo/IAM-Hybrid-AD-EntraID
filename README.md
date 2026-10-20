@@ -110,16 +110,21 @@ MIT License
 
 ---
 
+---
+
 ## 📸 Galería de Capturas
 
-### 1. Estructura de Active Directory
+### 1. Estructura de Active Directory (OUs)
 ![Estructura OUs](Screenshots/ad-estructura-ous.png)
 
-### 2. Usuarios creados por Departamento
+### 2. Grupos de Seguridad y RBAC
+![Grupos RBAC](Screenshots/ad-grupos-rbac.png)
+
+### 3. Usuarios creados por Departamento
 ![Usuarios Ventas](Screenshots/ad-ventas.png)
 
-### 3. Identidades Sincronizadas en Microsoft Entra ID
+### 4. Identidades Sincronizadas en Microsoft Entra ID
 ![Usuarios en Azure](Screenshots/azure-users.png)
 
-### 4. Auditoría y Diagnóstico (Event Viewer)
+### 5. Auditoría y Diagnóstico (Event Viewer)
 ![Token de acceso](Screenshots/entra-connect-eventlog.png)

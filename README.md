@@ -1,4 +1,4 @@
-# IAM Automation - Active Directory + Microsoft Entra ID (Hybrid)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/38d51c2b-b7c1-4ba2-849e-0d5f673020da" /># IAM Automation - Active Directory + Microsoft Entra ID (Hybrid)
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-blue)](https://github.com/)
 [![ActiveDirectory](https://img.shields.io/badge/Active%20Directory-OnPremise-orange)](https://github.com/)
@@ -61,9 +61,16 @@ IAM-Hybrid-AD-EntraID/
 
 1. Configurar estructura de OUs (Manual)
 2. Crear usuarios desde CSV:
+
+```
    .\Scripts\New-ADUsersBulk.ps1
+```
+
 3. Verificar sincronización:
+
+```
    Get-ADSyncScheduler | Select-Object LastSyncTime
+```   
 
 ---
 

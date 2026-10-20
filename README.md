@@ -52,7 +52,8 @@ IAM-Hybrid-AD-EntraID/
     ├── ad-ventas.png
     └── ad-it.png
     
-    ```
+```
+
 
 ---
 

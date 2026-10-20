@@ -69,10 +69,13 @@ IAM-Hybrid-AD-EntraID/
 
 ## Ejemplo de CSV
 
+```
+
 FirstName,LastName,Department,JobTitle,ManagerEmail,Office
 Maria,Lopez,Ventas,Directora Comercial,admin@empresa.local,Buenos Aires
 Carlos,Gomez,IT,Ingeniero de Sistemas,admin@empresa.local,CABA
 
+```
 ---
 
 ## Resultados

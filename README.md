@@ -88,6 +88,19 @@ Carlos,Gomez,IT,Ingeniero de Sistemas,admin@empresa.local,CABA
 ```
 ---
 
+## Configuración de Sincronización Híbrida
+
+Para conectar el entorno local con la nube, se realizaron los siguientes pasos:
+
+1. **Instalación de Microsoft Entra Connect:** Se descargó e instaló la herramienta en el servidor DC01.
+2. **Configuración Express:** Se seleccionó el modo "Express Settings" para sincronizar el bosque `empresa.local`.
+3. **Password Hash Sync (PHS):** Se habilitó la sincronización de hash de contraseñas para unificar las credenciales en ambos entornos.
+4. **Ejecución:** Se inició el ciclo de sincronización y se validó que las identidades locales viajaran a Microsoft Entra ID correctamente.
+
+*(Los detalles técnicos de esta arquitectura se encuentran documentados en la carpeta `Docs/arquitectura-hybrida.md`).*
+
+---
+
 ## Resultados
 
 - Usuarios procesados: 10

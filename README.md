@@ -107,3 +107,19 @@ Email: ignacio06cornejo@gmail.com
 ## Licencia
 
 MIT License
+
+---
+
+## 📸 Galería de Capturas
+
+### 1. Estructura de Active Directory
+![Estructura OUs](Screenshots/ad-estructura-ous.png)
+
+### 2. Usuarios creados por Departamento
+![Usuarios Ventas](Screenshots/ad-ventas.png)
+
+### 3. Identidades Sincronizadas en Microsoft Entra ID
+![Usuarios en Azure](Screenshots/azure-users.png)
+
+### 4. Auditoría y Diagnóstico (Event Viewer)
+![Token de acceso](Screenshots/entra-connect-eventlog.png)

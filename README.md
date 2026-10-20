@@ -87,7 +87,9 @@ Carlos,Gomez,IT,Ingeniero de Sistemas,admin@empresa.local,CABA
 ## Contacto
 
 Autor: Ignacio Cornejo
+
 LinkedIn: https://www.linkedin.com/in/ignacio-cornejo/
+
 Email: ignacio06cornejo@gmail.com
 
 ---

@@ -1,0 +1,11 @@
+FirstName,LastName,Department,JobTitle,ManagerEmail,Office
+María,López,Ventas,Directora Comercial,admin@empresa.local,Buenos Aires
+Carlos,Gómez,IT,Ingeniero de Sistemas,admin@empresa.local,CABA
+Ana,Martínez,RRHH,Coordinadora de Personal,admin@empresa.local,Rosario
+José,Fernández,Finanzas,Analista Contable,admin@empresa.local,Santa Fe
+Laura,Ramírez,Marketing,Community Manager,admin@empresa.local,Córdoba
+Miguel,Torres,Legal,Abogado Corporativo,admin@empresa.local,Mendoza
+Sofía,Rojas,Operaciones,Jefe de Operaciones,admin@empresa.local,La Plata
+Pablo,Díaz,Ventas,Ejecutivo de Cuentas,maria.lopez@empresa.local,Buenos Aires
+Lucía,Morales,IT,Soporte Nivel 2,carlos.gomez@empresa.local,CABA
+Roberto,Flores,RRHH,Analista de Reclutamiento,ana.martinez@empresa.local,Rosario

@@ -31,3 +31,10 @@ Este proyecto implementa una solución de identidad híbrida que combina Active 
 2. El servicio de Entra Connect detecta el nuevo objeto.
 3. La identidad y su contraseña se sincronizan de forma segura hacia Microsoft Entra ID.
 4. El usuario ya puede iniciar sesión en la nube con las mismas credenciales locales.
+
+## Validación del Entorno
+
+Para corroborar que la sincronización y el Password Hash Sync (PHS) están funcionando correctamente, se realizaron las siguientes pruebas:
+
+1. **Prueba de Sincronización:** Se verificó mediante PowerShell (Event Viewer) que el servicio de Entra Connect obtiene correctamente los tokens de acceso hacia la nube (Event ID 904).
+2. **Prueba de Autenticación Unificada:** Se validó el funcionamiento del PHS iniciando sesión en el portal de Microsoft Entra ID (o servicios de Microsoft 365) con un usuario sincronizado (por ejemplo, `mlopez@tu-dominio.onmicrosoft.com`), utilizando la misma contraseña configurada originalmente en el Active Directory local. El inicio de sesión exitoso confirma que el hash de la contraseña viaja correctamente desde el entorno on-premise hacia la nube.
